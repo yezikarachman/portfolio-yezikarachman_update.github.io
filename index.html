@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2281881137.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imagesyezi/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi! I'm <span>Yezika</span><br> Let's get to know me!</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imagesyezi/user.png" class="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a Bachelor of Library and Information Science student from the Indonesia University of Education with an interest in leadership and communication. I’m also interested in creative things and new things that I haven’t tried. I am an active student and organization, skilled in designing and editing. Involved in BEM Organization as Head of Creative Bureau in Communication and Information. Experienced enough in analyzing, managing, planning, designing, and developing activities in the organization. Besides that, this journey has taught me a lot about how competent I’m to work independently or in a team with a friendly and responsible attitude in solving a problem.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('Experience')"><b>Experience</b></p>
+                        <p class="tab-links" onclick="opentab('Education')"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span><b>Hard Skills</b></span><br>Designing Web Interfaces, Graphic Design (Visual Identity, Content,etc), Administration, Microsoft Office, Drawing</li>
+                            <li><span><b>Soft Skills</b></span><br>Creative Thinking, Communication, Leadership, Time Management, Teamwork, Problem-Solving, Negotiation</li>
+                            <li><span><b>Software Skills</li>
+                            <li>
+                                <img src="imagesyezi/word.png" class="app1">
+                                <img src="imagesyezi/ppt.png" class="app2">
+                                <img src="imagesyezi/canva.png" class="app3">
+                                <img src="imagesyezi/snapseed.png" class="app8">
+                                <img src="imagesyezi/lr.png" class="app9">
+                                <img src="imagesyezi/ibis.jpg" class="app4">
+                                <img src="imagesyezi/coohom.png" class="app5">
+                                <img src="imagesyezi/vsc.jpg" class="app7">
+                                <img src="imagesyezi/figs.png" class="app6">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span><b>BEM HIMA PERPUSINFO UPI</b></span><br>Head of Creative Bureau in Communication and Information Department<br>Graphic Designer of Communication and Information Department</li>
+                            <li><span><b>KOPMA Bumi Siliwangi UPI</b></span><br>Head of Public Relation in GC BSDC</li>
+                            <li><span><b>MOKA-KU UPI 2023</b></span><br>Staff of Field Division</li>
+                            <li><span><b>Pengabdian Pada Masyarakat 2024</b></span><br>Head of Publication, Design, and Documentation</li>
+                            <li><span><b>UPI BOOKPEDIA 9.0</b></span><br>Staff of Closing Division</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span><b>Sep 2021 – Present</b></span><br>Universitas Pendidikan Indonesia: Library and Information Science</li>
+                            <li><span><b>Sep 2022 – Nov 2022 </b></span><br>MicroMentor: Talent Scout Academy</li>
+                            <li><span><b>2018 – 2021</b></span><br>SMA Negeri 2 Karanganyar: Mathematics and Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services--------- -->
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Elevate your digital presence with intuitive and user-centric interfaces. From wireframes to prototypes, I specialize in creating seamless user experiences that blend aesthetics with usability. Whether it's crafting engaging mobile apps or responsive web interfaces, I ensure every interaction leaves a lasting impression.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Stand out from the crowd with visually striking designs that communicate your brand's identity. From logos and branding materials to marketing collateral and digital assets, I translate ideas into captivating visuals. With a keen eye for detail and a passion for creativity, I deliver designs that captivate and inspire</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Interior Design</h2>
+                    <p>Transform your spaces into environments that inspire and delight. With a focus on functionality and aesthetics, I offer comprehensive interior design solutions tailored to your needs. From concept development to space planning and decor selection, I bring your vision to life, creating spaces that reflect your style and enhance your living or working environment.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imagesyezi/work1.png">
+                    <div class="layer">
+                        <h3>Re-Design Web</h3>
+                        <p>Designing with Canva.</p>
+                        <a href="https://bit.ly/Redesign_YezikaRachman"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagesyezi/work2.png">
+                    <div class="layer">
+                        <h3>Room Design</h3>
+                        <p>Designing with Coohom.</p>
+                        <a href="https://bit.ly/SchoolLibraryDesign_byYezika"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagesyezi/work3.png">
+                    <div class="layer">
+                        <h3>Art</h3>
+                        <p>Manual & Digital (ibisPaint).</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1XMxVYH9WWdRbwNx6y7XBTxtawD_KDjdW"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagesyezi/work4.png">
+                    <div class="layer">
+                        <h3>Logo</h3>
+                        <p>Designing with ibisPaint & Canva.<br>P2M BEM Hima Perpusinfo</p>
+                        <a href="https://drive.google.com/drive/folders/1U99o1HxBjfQDxRw-chtG7D5YZE8V3A1c?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagesyezi/work5.png">
+                    <div class="layer">
+                        <h3>Instagram Feeds</h3>
+                        <p>Designing with Canva. For more information, check on Instagram @p2mbemhimaperpusinfo</p>
+                        <a href="https://www.instagram.com/p2mbemhimaperpusinfo"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagesyezi/work6.png">
+                    <div class="layer">
+                        <h3>Poster & Pamphlet</h3>
+                        <p>Designing with Canva & ibisPaint.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1XMxVYH9WWdRbwNx6y7XBTxtawD_KDjdW"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/drive/u/0/folders/1XMxVYH9WWdRbwNx6y7XBTxtawD_KDjdW" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>yezikarachman@upi.edu</p>
+                    <p><i class="fa-solid fa-square-phone"></i>085648690753</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_yejisaurrr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/justcoolkid_"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/yezika-rachman"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.behance.net/yezikarachman"><i class="fa-brands fa-behance"></i></a>
+                    </div>
+                    <a href="imagesyezi/CV YEZIKA.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Yezika, All right reserved.</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxdsgp3cIace-WJPjduEiEbfc2bZEwB03YxtKZMqTSRwDudNHhz3KyVu1G8RVYjfod5/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+    
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function() {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+</body>
+</html>
